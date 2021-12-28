@@ -62,14 +62,14 @@
 
 .form fieldset .input{
     position: absolute;
-    width: calc(100% + 120px);
+    width: calc(100% + 18%);
     display: flex;
     align-items: center;
     
 }
 .form fieldset input{
     position: relative;    
-    width: calc(100% + 20px);
+    width: calc(100% + 180px);
     height: 48px;
     filter: drop-shadow(4px 10px 15px rgba(0, 0, 0, 0.5));
 
