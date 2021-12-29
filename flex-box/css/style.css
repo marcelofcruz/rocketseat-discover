@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header menu navigation */
+header {
+    font-family: sans-serif;
+
+    background-color: #2e2e2e;
+}
+
+nav {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2rem;
+}
+
+.logo {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    gap: .8rem
+}
+
+.nav-menu li:last-child{
+    margin-left: 0.8rem;
+    
+    background-color: rgb(28, 28, 139);
+    color: #FFF;
+
+    text-transform: capitalize;
+    padding: .8rem;
+    border-radius: 5px;
+}
+
+.nav-menu .item a {
+    text-transform: uppercase;
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+/* Layout com 2 colunas */
+.container {
+    display: flex;
+    gap: 1rem;
+}
+
+.container aside{
+    display: flex;
+    flex-direction:column ;
+    flex-basis: 15%;
+    
+    background-color: #265;
+    padding: 1.5rem;
+    
+
+}
+
+/* Imagem dentro de um botão */
+aside button{
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+    line-height: 0;
+
+    padding: .5rem 1rem;
+    margin-bottom: .5rem;
+    border: none;
+    color: white;
+    background-color: rgb(14, 58, 124);
+}
+
+aside button img{
+    width: 1.5rem;
+}
+
+.container main{
+    flex: 1;
+
+    background-color: rgb(115, 176, 187);
+    padding: 1.5rem;
+}
+
+/* 9 fotos 3 colunas */
+.galery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .8rem;
+    justify-content: center;
+}
+
+.photo {
+    width: 25%;
+    height: auto;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: sans-serif;
+    background-color: #2e2e2e;
+    color: #FFF;
+    padding: 2rem;
+}
